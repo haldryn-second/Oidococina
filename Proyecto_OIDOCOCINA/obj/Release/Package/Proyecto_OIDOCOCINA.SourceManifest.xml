@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Release\Package\PackageTmp" />
+  <setAcl path="E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <setAcl path="E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Release\Package\PackageTmp\App_Data" setAclResourceType="Directory" setAclAccess="Write" />
+</sitemanifest>

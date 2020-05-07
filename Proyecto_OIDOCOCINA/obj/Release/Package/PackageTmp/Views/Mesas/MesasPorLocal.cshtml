@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.MESAS>
+
+@{
+    ViewBag.Title = "Mesas del local";
+}
+<style>
+    
+</style>
+<h2>MODIFICAR MESAS DEL LOCAL</h2>
+<p>
+    @Html.ActionLink("NUEVA MESA", "Create")
+</p>
+<div>
+    <table class="table table-bordered">
+        <tr >
+            <th style="text-align:center">Descripción</th>
+            <th style="text-align:center">Capacidad</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td style="text-align:center">
+            @Html.DisplayFor(modelItem => item.Capacidad) persona/s
+        </td>
+                   <td style="vertical-align: middle; text-align:center">
+
+                <form action="~/Mesas/Delete/@item.Id" method="get">
+                    <button type="submit" class="btn-link"><img style="width:15px" src="~/Content/Icons/cerrar.png" /></button>
+                </form>
+                
+            </td>
+    </tr>
+        }
+    </table>
+</div>
+
+

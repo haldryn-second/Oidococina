@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.RESERVAS>
+
+
+<style>
+    th{
+     text-align:center
+    }
+    td{
+    text-align:center
+    }
+    a{
+        color:white
+    }a:hover{
+         color:white;text-decoration:none
+             
+     }
+</style>
+@{
+    ViewBag.Title = "Reservas";
+}
+
+<h2>Reservas</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MESAS.LOCALES.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hora)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MESAS.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Num_personas)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.MESAS.LOCALES.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Dia)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Hora)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MESAS.Descripcion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Num_personas)
+    </td>
+    <td>
+        @*<div class="btn btn-danger">
+            @Html.ActionLink("CANCELAR RESERVA", "Delete", new { id = item.Id })
+        </div>*@
+        <form action="~/Reservas/Delete/@item.Id" method="get">
+            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
+        </form>
+    </td>
+</tr>
+}
+</table>

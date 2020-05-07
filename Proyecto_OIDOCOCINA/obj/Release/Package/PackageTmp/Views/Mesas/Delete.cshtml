@@ -1,0 +1,21 @@
+﻿@model Proyecto_OIDOCOCINA.Models.MESAS
+
+@{
+    ViewBag.Title = "Eliminar mesa";
+}
+
+<h2 style="margin-top:2em">¿ESTÁ SEGURO DE QUERER ELIMINAR LA MESA?</h2>
+
+
+<div>
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+
+    <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;margin-top:5em">
+        <input type="submit" value="ELIMINAR" class="btn btn-lg btn-danger" />
+        <a href="../../Mesas/MesasPorLocal" value="VOLVER" class="btn btn-lg btn-success">VOLVER</a>
+    </div>
+    }
+
+</div>

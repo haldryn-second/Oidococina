@@ -1,0 +1,105 @@
+﻿@model Proyecto_OIDOCOCINA.Models.COMENTARIOS
+
+@{
+    ViewBag.Title = "Nuevo comentario";
+}
+
+<style>
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        cursor: context-menu;
+    }
+
+        .rating > span {
+            display: inline-block;
+            position: relative;
+            width: 1.1em;
+            cursor: pointer;
+        }
+
+            .rating > span:hover:before,
+            .rating > span:hover ~ span:before {
+                color: orange;
+            }
+</style>
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>COMENTARIOS</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group" style="display:none">
+            @Html.LabelFor(model => model.Id_Local, "Id_Local", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Id_Local", null, htmlAttributes: new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Id_Local, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div class="form-group" style="display:none">
+            @Html.LabelFor(model => model.Id_Usuario, "Id_Usuario", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Id_Usuario", null, htmlAttributes: new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Id_Usuario, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Comentario, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Comentario, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Comentario, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Puntuacion, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10" style="display:none">
+                @Html.EditorFor(model => model.Puntuacion, new { htmlAttributes = new { @class = "form-control", @id = "punt" } })
+                @Html.ValidationMessageFor(model => model.Puntuacion, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-10 rating">
+                <span class="fa fa-star fa-3x" id="star5"></span>
+                <span class="fa fa-star fa-3x" id="star4"></span>
+                <span class="fa fa-star fa-3x" id="star3"></span>
+                <span class="fa fa-star fa-3x" id="star2"></span>
+                <span class="fa fa-star fa-3x" id="star1"></span>
+            </div>
+        </div>
+
+
+        @*<div class="form-group" style="display:none">
+            @Html.LabelFor(model => model.Fecha, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Fecha, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Fecha, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script>
+ 
+    $("span").click(function () {
+        valor=this.id.substring(4, 5);
+        $("#punt").val(valor)
+    });
+</script>

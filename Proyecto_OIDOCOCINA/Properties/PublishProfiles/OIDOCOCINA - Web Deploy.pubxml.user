@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsaF6IJDawE+rHv9IxSVmAQAAAAACAAAAAAAQZgAAAAEAACAAAABInqVK1UadxAPY/GElnbKO39BIcdOxjRKLvVTsYY+a2QAAAAAOgAAAAAIAACAAAAC3W+/fKoEf0Y0PWGvbmz6lrD7zvkJhWzVGilRr7O7OI4AAAACiuW8lSodIEfsmB45c84lki/KdxBOPzMcaYL8pWhaC08QVk/jIJWjiL+kC07SXK2Bu0LS5s6MuRwWok64L0vVqwf+5pv0KV73qXcWlh3Zj6dEWAVKI3QWKFwoAnkAgMCz7ntq7SX2lrv2KoEMiTa3BbvYgKwt317UaQ+TvtUyL30AAAABy2QW/HDGxxbCmplEJRAuMy0p/wKBkS/9NZlq2VhArFfmXI55ziSrv5ycm/8S8c7v1K8sY9xnb9D1+lTtOFO9x</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:oidococinadbserver.database.windows.net,1433;Initial Catalog=OIDOCOCINA_db;User Id=Haldryn@oidococinadbserver;Password=Acc1171994" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:oidococinadbserver.database.windows.net,1433;Initial Catalog=OIDOCOCINA_Entities;User Id=Haldryn@oidococinadbserver;Password=Acc1171994" />
+  </ItemGroup>
+</Project>

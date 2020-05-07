@@ -1,0 +1,116 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.RESERVAS>
+
+
+<style>
+    th {
+        text-align: center
+    }
+
+    td {
+        text-align: center
+    }
+</style>
+@{
+    ViewBag.Title = "Reservas";
+}
+
+<h2>RESERVAS</h2>
+
+@{Html.BeginForm("ReservasPorLocal", "Reservas", FormMethod.Get);}
+
+<div class="form-inline" style="margin:0 auto; width:60%;text-align: center;margin-bottom:1em">
+    <input type="date" name="dia" id="dia" class="form-control" />
+
+    <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/encontrar.png" /></button>
+
+</div>
+@{ Html.EndForm(); }
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.USUARIOS.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hora)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MESAS.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Num_personas)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        if (ViewBag.fecha_actual > item.Dia)
+        {
+            <tr style="background-color:#4a4a4a">
+                <td>
+                    @Html.DisplayFor(modelItem => item.USUARIOS.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MESAS.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Num_personas)
+                </td>
+
+            </tr>
+
+        }
+        else if (ViewBag.fecha_actual < item.Dia)
+        {
+            <tr style="background-color:forestgreen">
+                <td>
+                    @Html.DisplayFor(modelItem => item.USUARIOS.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MESAS.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Num_personas)
+                </td>
+
+            </tr>
+        }
+        else
+        {
+            <tr style="background-color:darkorange">
+                <td>
+                    @Html.DisplayFor(modelItem => item.USUARIOS.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MESAS.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Num_personas)
+                </td>
+
+            </tr>
+        }
+
+
+    }
+</table>

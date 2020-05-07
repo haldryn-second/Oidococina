@@ -1,0 +1,139 @@
+﻿@model IEnumerable < Proyecto_OIDOCOCINA.Models.LOCALES >
+    @{
+    ViewBag.Title = "Inicio - OIDOCOCINA";
+}
+
+<style>
+    img{
+        width:200px;
+        height:150px;
+    }
+    .centered{
+        color:#222222!important;
+        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    }
+</style>
+
+<div id="my-pics" class="carousel slide" data-ride="carousel" style="margin:auto;">
+
+    <!-- Indicators -->
+    @*<ol class="carousel-indicators">
+        <li data-target="#my-pics" data-slide-to="0" class="active"></li>
+        <li data-target="#my-pics" data-slide-to="1"></li>
+        <li data-target="#my-pics" data-slide-to="2"></li>
+    </ol>*@
+
+    <!-- Content -->
+    <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="item active">
+            <a href="#">
+                <video style="width:100%; border-radius:0 0 10px 10px" id="vid" autoplay muted loop preload="auto">
+                    <source src="~/Content/Videos/video0.mp4" type="video/mp4">
+                    <img src="inc/img/empty_2.jpg" alt="Video no soportado">
+                    Su navegador no soporta contenido multimedia.
+                </video>
+                <div class="carousel-caption">
+                    <h1 class="centered" style="font-size:4em">ENLACE PATROCINADO</h1>
+                    <p class="centered" style="font-size:2em">Ponga aquí su anuncio</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="item">
+            <a href="#">
+                <video style="width:100%; border-radius:0 0 10px 10px" id="vid" autoplay muted loop preload="auto">
+                    <source src="~/Content/Videos/video4.mp4" type="video/mp4">
+                    <img src="inc/img/empty_2.jpg" alt="Video no soportado">
+                    Su navegador no soporta contenido multimedia.
+                </video>
+                <div class="carousel-caption">
+                    <h1 class="centered" style="font-size:4em">ENLACE PATROCINADO</h1>
+                    <p class="centered" style="font-size:2em">Ponga aquí su anuncio</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="item">
+            <a href="#">
+                <video style="width:100%; border-radius:0 0 10px 10px" id="vid" autoplay muted loop preload="auto">
+                    <source src="~/Content/Videos/video1.mp4" type="video/mp4">
+                    <img src="inc/img/empty_2.jpg" alt="Video no soportado">
+                    Su navegador no soporta contenido multimedia.
+                </video>
+                <div class="carousel-caption">
+                    <h1 class="centered" style="font-size:4em">ENLACE PATROCINADO</h1>
+                    <p class="centered" style="font-size:2em">Ponga aquí su anuncio</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="item">
+            <a href="#">
+                <video style="width:100%; border-radius:0 0 10px 10px" id="vid" autoplay muted loop preload="auto">
+                    <source src="~/Content/Videos/video3.mp4" type="video/mp4">
+                    <img src="inc/img/empty_2.jpg" alt="Video no soportado">
+                    Su navegador no soporta contenido multimedia.
+                </video>
+                <div class="carousel-caption">
+                    <h1 class="centered" style="font-size:4em">ENLACE PATROCINADO</h1>
+                    <p class="centered" style="font-size:2em">Ponga aquí su anuncio</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+@*<div class="jumbotron" style="padding:0">
+
+
+
+    <div style="position: relative;">
+        <video style="width:100%; border-radius:0 0 10px 10px" id="vid" autoplay muted loop preload="auto">
+            <source src="~/Content/Videos/Restaurant.mp4" type="video/mp4">
+            <img src="inc/img/empty_2.jpg" alt="Video no soportado">
+            Su navegador no soporta contenido multimedia.
+        </video>
+        <h1 class="centered">OIDOCOCINA</h1>
+    </div>
+</div>*@
+        @*<h1>ASP.NET</h1>
+            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+            <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+    
+    <h2>NUESTROS LOCALES</h2>
+    <div style="display:inline-flex;justify-content:center; width:100%;flex-wrap: wrap;">
+        @foreach (var item in Model)
+        {
+            if (File.Exists(Server.MapPath("~/Content/Images/" + @Html.DisplayFor(modelItem => item.Id) + "/portada.jpg")))
+            {
+                <a style="text-decoration:none" href="~/Locales/Detalles/@item.Id">
+                    <div class="card text-center" style="">
+                        <img class="card-img-top" style="border-radius:10px" src="~/Content/Images/@Html.DisplayFor(modelItem => item.Id)/portada.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">@Html.DisplayFor(modelItem => item.Nombre)</h4>
+                        </div>
+                    </div>
+                </a>
+            }
+
+
+        }
+    </div>
+
+    <script>
+        let loadImage = function (variable) {
+            var image = new Image();
+            var url_image = './ImageFolder/' + variable + '.jpg';
+            image.src = url_image;
+            if (image.width == 0) {
+                return `<img src='./ImageFolder/defaultImage.jpg'>`;
+            } else {
+                return `<img src='./ImageFolder/` + variable + `.jpg'`;
+            }
+        }
+    </script>

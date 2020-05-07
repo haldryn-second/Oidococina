@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_OIDOCOCINAModelStoreContainer" CdmEntityContainer="BD_OIDOCOCINAEntities">
+    <EntitySetMapping Name="GALERIA">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.GALERIA">
+        <MappingFragment StoreEntitySet="GALERIA">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Portada" ColumnName="Portada" />
+          <ScalarProperty Name="Ruta" ColumnName="Ruta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOCALES">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.LOCALES">
+        <MappingFragment StoreEntitySet="LOCALES">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Hora_apertura" ColumnName="Hora_apertura" />
+          <ScalarProperty Name="Hora_cierre" ColumnName="Hora_cierre" />
+          <ScalarProperty Name="Lunes" ColumnName="Lunes" />
+          <ScalarProperty Name="Martes" ColumnName="Martes" />
+          <ScalarProperty Name="Miercoles" ColumnName="Miercoles" />
+          <ScalarProperty Name="Jueves" ColumnName="Jueves" />
+          <ScalarProperty Name="Viernes" ColumnName="Viernes" />
+          <ScalarProperty Name="Sabado" ColumnName="Sabado" />
+          <ScalarProperty Name="Domingo" ColumnName="Domingo" />
+          <ScalarProperty Name="Carta" ColumnName="Carta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MESAS">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.MESAS">
+        <MappingFragment StoreEntitySet="MESAS">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NOTICIAS">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.NOTICIAS">
+        <MappingFragment StoreEntitySet="NOTICIAS">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Destacado" ColumnName="Destacado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RESERVAS">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.RESERVAS">
+        <MappingFragment StoreEntitySet="RESERVAS">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+          <ScalarProperty Name="Id_Mesa" ColumnName="Id_Mesa" />
+          <ScalarProperty Name="Dia" ColumnName="Dia" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Num_personas" ColumnName="Num_personas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMENTARIOS">
+      <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.COMENTARIOS">
+        <MappingFragment StoreEntitySet="COMENTARIOS">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Puntuacion" ColumnName="Puntuacion" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+          <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

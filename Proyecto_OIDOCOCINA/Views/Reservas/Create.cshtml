@@ -1,0 +1,183 @@
+﻿@model Proyecto_OIDOCOCINA.Models.RESERVAS
+
+@{
+    ViewBag.Title = "RESERVAR";
+}
+
+<style>
+    .error_fecha{
+        display:none;
+        color:red;
+    }
+</style>
+
+<h2>@ViewBag.nombre_local</h2>
+<h4 style="text-align:center">Horario del local: @ViewBag.hora_apert - @ViewBag.hora_cierre</h4>
+<hr />
+<div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+
+    @{Html.BeginForm("Create", "Reservas", FormMethod.Get, new { onsubmit = "validar()" });}
+
+    @*@Html.AntiForgeryToken()*@
+
+    <input type="hidden" id="id" value="@ViewBag.idlocal" />
+    <div style="margin: 1em 0 1em 0">
+        <div class="form-group" style="margin-right:3em">
+            <label>DIA</label>
+            @*@Html.LabelFor(model => model.Dia, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            @*@Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control" } })*@
+
+            @*@Html.JQueryUI().DatepickerFor(model => model.Dia).ShowButtonPanel(true).ChangeYear(true).ChangeMonth(true).MinDate(0)
+            @Html.ValidationMessageFor(model => model.Dia, "", new { @class = "text-danger" })*@
+
+
+            @Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control date", @id = "dia_prime" } })
+            @Html.ValidationMessageFor(model => model.Num_personas, "", new { @class = "text-danger" })
+
+        </div>
+        <div class="form-group" style="margin-right:3em">
+            <label for="hora_reserv">HORA</label>
+
+            @*@Html.LabelFor(model => model.Hora, htmlAttributes: new { @class = "control-label col-md-2" })*@
+
+            @Html.EditorFor(model => model.Hora, new { htmlAttributes = new { @id = "hora_prime", @class = "form-control", @min = @ViewBag.hora_apert, @max = ViewBag.hora_cierre } })
+            @*@Html.ValidationMessageFor(model => model.Hora, "", new { @class = "text-danger" })*@
+
+        </div>
+    </div>
+    <div class="error_fecha">
+        NO ES POSIBLE RESERVAR EN DÍAS PASADOS
+    </div>
+    <button style="margin: 1em 0 1em 0" type="submit" class="btn btn-primary" id="sub_but">BUSCAR MESA</button>
+    @{ Html.EndForm(); }
+</div>
+<br />
+<br />
+
+<div class="form-group" style="display:none">
+    <div class="col-md-10">
+        @Html.DropDownList("Capacidad_Mesa", null, htmlAttributes: new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Id_Mesa, "", new { @class = "text-danger" })
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group" style="display:none">
+        @Html.LabelFor(model => model.Id_Usuario, "Id_Usuario", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("Id_Usuario", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Id_Usuario, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div style="display:none">
+        <input type="text" id="id" value="@ViewBag.idlocal" />
+        @Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control", @value = @ViewBag.Dia } })
+        @Html.ValidationMessageFor(model => model.Num_personas, "", new { @class = "text-danger" })
+    </div>
+
+    <input type="hidden" id="Hora" value="@ViewBag.hora" />
+
+
+    <div id="datos_mesa" style="display:none;">
+
+
+        <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+            <label for="hora_reserv">ESCOJA SU MESA</label>
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.Id_Mesa, "Lugar", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <div class="col-md-10">
+                    @Html.DropDownList("Id_Mesa", null, htmlAttributes: new { @size = @ViewBag.nummesas, @class = "form-control", @onchange = "asignarid(this.value); mostrar()", @style = "overflow:auto; color:#222222!important" })
+                    @Html.ValidationMessageFor(model => model.Id_Mesa, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group" id="num_comensales" style="text-align:center;display:none">
+                @*@Html.LabelFor(model => model.Num_personas, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label for="hora_reserv">COMENSALES</label>
+                @Html.EditorFor(model => model.Num_personas, new { htmlAttributes = new { @class = "form-control", @min = "1", @id = "num_per", @max = "9" } })
+                @Html.ValidationMessageFor(model => model.Num_personas, "", new { @class = "text-danger" })
+                Máximo <span id="num_comen"></span> persona/s
+
+            </div>
+        </div>
+
+
+
+        <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+            <div class="">
+                <br /><br />
+                <input id="crear_reserv" style="width:50%" type="submit" value="RESERVAR" class="btn btn-success" disabled />
+            </div>
+        </div>
+
+    </div>
+}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script>
+    $(document).ready(function () {
+    $('#dia_prime').change(function () {
+        //console.log(Date.now());
+        //console.log(Date.parse(this.value));
+        //var d = Date.parse(this.value) - Date.now();
+        //console.log(d);
+        var today = moment().format("MMM Do YY");   
+        var fecha = moment(this.value).format("MMM Do YY");   
+        console.log(today);
+        console.log(fecha);
+        if (today > fecha) {
+            //$(".error_fecha").show("slow", function () {
+            //    $('#sub_but').prop('disabled', true);
+            //});
+            $(".error_fecha").show();
+            $('#sub_but').prop('disabled', true);
+        }
+            else {
+            $(".error_fecha").hide();
+            $('#sub_but').prop('disabled', false);
+            }
+        
+    });
+    });
+</script>
+
+
+<script>
+    if (@ViewBag.returned== 1) {
+         document.getElementById("datos_mesa").style.display = "inline";
+    } else {
+         document.getElementById("datos_mesa").style.display = "none";
+    }
+
+    function asignarid(valor) {
+        Capacidad_Mesa.value = valor;
+        num_comen = Capacidad_Mesa.options[Capacidad_Mesa.selectedIndex].text;
+        document.getElementById("num_comen").innerHTML = num_comen;
+        document.getElementById("num_per").max = num_comen;
+        document.getElementById("num_per").value = num_comen;
+
+        document.getElementById("num_comensales").style.display = "inline";
+        document.getElementById("crear_reserv").disabled = false;
+    }
+
+    if (@ViewBag.returned== "1") {
+        document.getElementById("hora_prime").disabled = true;
+        document.getElementById("dia_prime").disabled = true;
+    }
+
+
+
+
+
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.LOCALES>
+
+@{
+    ViewBag.Title = "Administrar locales";
+}
+
+    <h2>ADMINISTRACIÓN DE LOCALES</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Correo)
+        </th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Direccion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Correo)
+    </td>
+
+    <td style="display:flex; text-align:center">
+
+        <form action="~/Locales/Details/@item.Id" method="get">
+            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/search.png" /></button>
+        </form>
+
+        <form action="~/Locales/Edit/@item.Id" method="get">
+            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/edit.png" /></button>
+        </form>
+
+        <form action="~/Locales/Delete/@item.Id" method="get">
+            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
+        </form>
+
+    </td>
+</tr>
+    }
+
+</table>

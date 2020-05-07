@@ -1,0 +1,149 @@
+﻿@model Proyecto_OIDOCOCINA.Models.LOCALES
+
+@{
+    ViewBag.Title = "Detalles del Local";
+}
+
+<style>
+    .titu {
+        font-weight: bold;
+        font-size:large;
+        margin-left:15px!important;
+    }
+    .form-group{
+        margin-bottom:30px!important;
+    }
+</style>
+
+<h2>DETALLES DEL LOCAL</h2>
+
+<div>
+
+    <hr />
+    <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+        <div class="form-group">
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Nombre)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Nombre)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Direccion)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Direccion)
+
+        </div>
+    </div>
+    <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+        <div class="form-group">
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Correo)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Correo)
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Telefono)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Telefono)
+
+        </div>
+    </div>
+    <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+        <div class="form-group">
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Hora_apertura)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Hora_apertura)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Hora_cierre)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Hora_cierre)
+
+        </div>
+    </div>
+    <div class="form-inline" style="margin:0 auto; width:60%;text-align: center;">
+        <div class="form-group">
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Lunes)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Lunes)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Martes)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Martes)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Miercoles)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Miercoles)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Jueves)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Jueves)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Viernes)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Viernes)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Sabado)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Sabado)
+
+
+            <span class="titu">
+                @Html.DisplayNameFor(model => model.Domingo)
+            </span>
+
+
+            @Html.DisplayFor(model => model.Domingo)
+
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+<div class="form-inline" style="margin:0 auto; width:50%;text-align: center;">
+    <form action="~/Locales/Edit/@Html.DisplayFor(model => model.Id)" method="get">
+        <button type="submit" class="btn-link"><img style="width:40px" src="~/Content/Icons/edit.png" /></button>
+    </form>
+</div>

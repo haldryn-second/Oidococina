@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.GALERIA>
+
+@{
+    ViewBag.Title = "GALERÍA";
+}
+
+<style>
+    img{
+        width:200px;
+        max-height:150px;
+    }
+    .btn-link {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+}
+</style>
+<h2>GALERÍA</h2>
+
+<p>
+    @Html.ActionLink("NUEVA IMAGEN", "Create")
+</p>
+<table class="table" style="height: 100px;">
+    <tr>
+        <th>
+            Imagen
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th style="text-align:center">
+            @Html.DisplayNameFor(model => model.Portada)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @if (item.Portada == true)
+                {
+                    <img class="img-thumbnail" src="~/Content/Images/@Html.DisplayFor(modelItem => item.LOCALES.Id)/portada.jpg" />
+                }
+                else
+                {
+                    <img class="img-thumbnail" src="~/Content/Images/@Html.DisplayFor(modelItem => item.LOCALES.Id)/@Html.DisplayFor(modelItem => item.Ruta)" />
+                }
+
+            </td>
+            <td style="vertical-align: middle;">
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td style="vertical-align: middle;text-align:center">
+                @Html.DisplayFor(modelItem => item.Portada)
+            </td>
+            <td style="vertical-align: middle;">
+
+                <form action="~/Galeria/Delete/@item.Id" method="get">
+                    <button type="submit" class="btn-link"><img style="width:50px" src="~/Content/Icons/cerrar.png" /></button>
+                </form>
+                
+            </td>
+        </tr>
+    }
+
+</table>

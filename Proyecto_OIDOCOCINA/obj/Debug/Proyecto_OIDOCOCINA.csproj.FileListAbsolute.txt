@@ -1,0 +1,831 @@
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Owin.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA - copia\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Owin.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+C:\Users\canales16086\Desktop\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_TEST\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Owin.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+E:\2º DAW\Desarrollo Web Servidor\Proyecto_OIDOCOCINA_PRUEBAS\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll.config
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Proyecto_OIDOCOCINA.pdb
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\csc.exe.config
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\csc.rsp
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\csi.exe.config
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\csi.rsp
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.AppContext.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Console.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Compression.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Claims.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.ValueTuple.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\vbc.exe.config
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\vbc.rsp
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\EntityFramework.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Owin.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Razor.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\WebGrease.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\JQueryUIHelpers.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Helpers.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Mvc.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Optimization.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.Razor.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\System.Web.WebPages.Razor.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Newtonsoft.Json.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Antlr3.Runtime.pdb
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\EntityFramework.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\EntityFramework.SqlServer.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.Razor.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\EntityFramework.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csprojAssemblyReference.cache
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CoreCompileInputs.cache
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.csproj.CopyComplete
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.dll
+C:\Users\Haldryn\Desktop\Oidococina\Proyecto_OIDOCOCINA\obj\Debug\Proyecto_OIDOCOCINA.pdb

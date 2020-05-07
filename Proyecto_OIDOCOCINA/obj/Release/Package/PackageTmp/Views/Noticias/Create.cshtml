@@ -1,0 +1,63 @@
+﻿@model Proyecto_OIDOCOCINA.Models.NOTICIAS
+
+@{
+    ViewBag.Title = "Nueva noticia";
+}
+
+<h2>NUEVA NOTICIA</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group" style="display:none">
+        @Html.LabelFor(model => model.Id_Local, "Id_Local", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("Id_Local", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Id_Local, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Titulo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Titulo, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Titulo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Descripcion, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @*@Html.EditorFor(model => model.Descripcion, new { htmlAttributes = new { @class = "form-control" } })*@
+            @Html.TextAreaFor(model => model.Descripcion, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Destacado, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.Destacado)
+                @Html.ValidationMessageFor(model => model.Destacado, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group" style="width:60%;text-align: center;">
+        <div class="">
+            <input style="width:50%" type="submit" value="CREAR NOTICIA" class="btn btn-success" />
+        </div>
+    </div>
+</div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

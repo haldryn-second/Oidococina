@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="BD_OIDOCOCINAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="COMENTARIOS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_Local" Type="int" Nullable="false" />
+          <Property Name="Id_Usuario" Type="int" Nullable="false" />
+          <Property Name="Comentario" Type="varchar(max)" Nullable="false" />
+          <Property Name="Puntuacion" Type="int" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GALERIA">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_Local" Type="int" Nullable="false" />
+          <Property Name="Titulo" Type="varchar(max)" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar(max)" />
+          <Property Name="Portada" Type="bit" Nullable="false" />
+          <Property Name="Ruta" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LOCALES">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar(max)" Nullable="false" />
+          <Property Name="Direccion" Type="varchar(max)" Nullable="false" />
+          <Property Name="Correo" Type="varchar(max)" Nullable="false" />
+          <Property Name="Telefono" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Hora_apertura" Type="time" Precision="0" Nullable="false" />
+          <Property Name="Hora_cierre" Type="time" Precision="0" Nullable="false" />
+          <Property Name="Lunes" Type="bit" Nullable="false" />
+          <Property Name="Martes" Type="bit" Nullable="false" />
+          <Property Name="Miercoles" Type="bit" Nullable="false" />
+          <Property Name="Jueves" Type="bit" Nullable="false" />
+          <Property Name="Viernes" Type="bit" Nullable="false" />
+          <Property Name="Sabado" Type="bit" Nullable="false" />
+          <Property Name="Domingo" Type="bit" Nullable="false" />
+          <Property Name="Carta" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MESAS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_Local" Type="int" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar(max)" />
+          <Property Name="Capacidad" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NOTICIAS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_Local" Type="int" Nullable="false" />
+          <Property Name="Titulo" Type="varchar(max)" />
+          <Property Name="Descripcion" Type="varchar(max)" Nullable="false" />
+          <Property Name="Destacado" Type="bit" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" />
+        </EntityType>
+        <EntityType Name="RESERVAS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_Usuario" Type="int" Nullable="false" />
+          <Property Name="Id_Mesa" Type="int" Nullable="false" />
+          <Property Name="Dia" Type="date" Nullable="false" />
+          <Property Name="Hora" Type="time" Precision="0" Nullable="false" />
+          <Property Name="Num_personas" Type="int" />
+        </EntityType>
+        <EntityType Name="USUARIOS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar(max)" Nullable="false" />
+          <Property Name="Direccion" Type="varchar(max)" Nullable="false" />
+          <Property Name="Correo" Type="varchar(max)" Nullable="false" />
+          <Property Name="Telefono" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_COMENT_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="COMENTARIOS" Type="Self.COMENTARIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="COMENTARIOS">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_COMENT_IDUSER">
+          <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+          <End Role="COMENTARIOS" Type="Self.COMENTARIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIOS">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="COMENTARIOS">
+              <PropertyRef Name="Id_Usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="GALERIA_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="GALERIA" Type="Self.GALERIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="GALERIA">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MESAS_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="MESAS" Type="Self.MESAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MESAS">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="NOTICIAS_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="NOTICIAS" Type="Self.NOTICIAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="NOTICIAS">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVAS_IDMESA">
+          <End Role="MESAS" Type="Self.MESAS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MESAS">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Id_Mesa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVAS_IDUSUARIO">
+          <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIOS">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Id_Usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BD_OIDOCOCINAModelStoreContainer">
+          <EntitySet Name="COMENTARIOS" EntityType="Self.COMENTARIOS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GALERIA" EntityType="Self.GALERIA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LOCALES" EntityType="Self.LOCALES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MESAS" EntityType="Self.MESAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NOTICIAS" EntityType="Self.NOTICIAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RESERVAS" EntityType="Self.RESERVAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_COMENT_IDLOCAL" Association="Self.FK_COMENT_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_COMENT_IDUSER" Association="Self.FK_COMENT_IDUSER">
+            <End Role="USUARIOS" EntitySet="USUARIOS" />
+            <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+          </AssociationSet>
+          <AssociationSet Name="GALERIA_IDLOCAL" Association="Self.GALERIA_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="GALERIA" EntitySet="GALERIA" />
+          </AssociationSet>
+          <AssociationSet Name="MESAS_IDLOCAL" Association="Self.MESAS_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="MESAS" EntitySet="MESAS" />
+          </AssociationSet>
+          <AssociationSet Name="NOTICIAS_IDLOCAL" Association="Self.NOTICIAS_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="NOTICIAS" EntitySet="NOTICIAS" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVAS_IDMESA" Association="Self.RESERVAS_IDMESA">
+            <End Role="MESAS" EntitySet="MESAS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVAS_IDUSUARIO" Association="Self.RESERVAS_IDUSUARIO">
+            <End Role="USUARIOS" EntitySet="USUARIOS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BD_OIDOCOCINAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="GALERIA">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Local" Type="Int32" Nullable="false" />
+          <Property Name="Titulo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Portada" Type="Boolean" Nullable="false" />
+          <Property Name="Ruta" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="LOCALES" Relationship="Self.GALERIA_IDLOCAL" FromRole="GALERIA" ToRole="LOCALES" />
+        </EntityType>
+        <EntityType Name="LOCALES">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Correo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Hora_apertura" Type="Time" Nullable="false" Precision="0" />
+          <Property Name="Hora_cierre" Type="Time" Nullable="false" Precision="0" />
+          <Property Name="Lunes" Type="Boolean" Nullable="false" />
+          <Property Name="Martes" Type="Boolean" Nullable="false" />
+          <Property Name="Miercoles" Type="Boolean" Nullable="false" />
+          <Property Name="Jueves" Type="Boolean" Nullable="false" />
+          <Property Name="Viernes" Type="Boolean" Nullable="false" />
+          <Property Name="Sabado" Type="Boolean" Nullable="false" />
+          <Property Name="Domingo" Type="Boolean" Nullable="false" />
+          <Property Name="Carta" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="GALERIA" Relationship="Self.GALERIA_IDLOCAL" FromRole="LOCALES" ToRole="GALERIA" />
+          <NavigationProperty Name="MESAS" Relationship="Self.MESAS_IDLOCAL" FromRole="LOCALES" ToRole="MESAS" />
+          <NavigationProperty Name="NOTICIAS" Relationship="Self.NOTICIAS_IDLOCAL" FromRole="LOCALES" ToRole="NOTICIAS" />
+          <NavigationProperty Name="COMENTARIOS" Relationship="BD_OIDOCOCINAModel.FK_COMENT_IDLOCAL" FromRole="LOCALES" ToRole="COMENTARIOS" />
+        </EntityType>
+        <EntityType Name="MESAS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Local" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Capacidad" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="LOCALES" Relationship="Self.MESAS_IDLOCAL" FromRole="MESAS" ToRole="LOCALES" />
+          <NavigationProperty Name="RESERVAS" Relationship="Self.RESERVAS_IDMESA" FromRole="MESAS" ToRole="RESERVAS" />
+        </EntityType>
+        <EntityType Name="NOTICIAS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Local" Type="Int32" Nullable="false" />
+          <Property Name="Titulo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Destacado" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="LOCALES" Relationship="Self.NOTICIAS_IDLOCAL" FromRole="NOTICIAS" ToRole="LOCALES" />
+          <Property Name="Fecha" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="RESERVAS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Usuario" Type="Int32" Nullable="false" />
+          <Property Name="Id_Mesa" Type="Int32" Nullable="false" />
+          <Property Name="Dia" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Hora" Type="Time" Nullable="false" Precision="0" />
+          <Property Name="Num_personas" Type="Int32" />
+          <NavigationProperty Name="MESAS" Relationship="Self.RESERVAS_IDMESA" FromRole="RESERVAS" ToRole="MESAS" />
+          <NavigationProperty Name="USUARIOS" Relationship="Self.RESERVAS_IDUSUARIO" FromRole="RESERVAS" ToRole="USUARIOS" />
+        </EntityType>
+        <EntityType Name="USUARIOS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Correo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="RESERVAS" Relationship="Self.RESERVAS_IDUSUARIO" FromRole="USUARIOS" ToRole="RESERVAS" />
+          <NavigationProperty Name="COMENTARIOS" Relationship="BD_OIDOCOCINAModel.FK_COMENT_IDUSER" FromRole="USUARIOS" ToRole="COMENTARIOS" />
+        </EntityType>
+        <Association Name="GALERIA_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="GALERIA" Type="Self.GALERIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="GALERIA">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MESAS_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="MESAS" Type="Self.MESAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MESAS">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="NOTICIAS_IDLOCAL">
+          <End Role="LOCALES" Type="Self.LOCALES" Multiplicity="1" />
+          <End Role="NOTICIAS" Type="Self.NOTICIAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="NOTICIAS">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVAS_IDMESA">
+          <End Role="MESAS" Type="Self.MESAS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MESAS">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Id_Mesa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVAS_IDUSUARIO">
+          <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+          <End Role="RESERVAS" Type="Self.RESERVAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIOS">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RESERVAS">
+              <PropertyRef Name="Id_Usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BD_OIDOCOCINAEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="GALERIA" EntityType="Self.GALERIA" />
+          <EntitySet Name="LOCALES" EntityType="Self.LOCALES" />
+          <EntitySet Name="MESAS" EntityType="Self.MESAS" />
+          <EntitySet Name="NOTICIAS" EntityType="Self.NOTICIAS" />
+          <EntitySet Name="RESERVAS" EntityType="Self.RESERVAS" />
+          <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
+          <AssociationSet Name="GALERIA_IDLOCAL" Association="Self.GALERIA_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="GALERIA" EntitySet="GALERIA" />
+          </AssociationSet>
+          <AssociationSet Name="MESAS_IDLOCAL" Association="Self.MESAS_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="MESAS" EntitySet="MESAS" />
+          </AssociationSet>
+          <AssociationSet Name="NOTICIAS_IDLOCAL" Association="Self.NOTICIAS_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="NOTICIAS" EntitySet="NOTICIAS" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVAS_IDMESA" Association="Self.RESERVAS_IDMESA">
+            <End Role="MESAS" EntitySet="MESAS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVAS_IDUSUARIO" Association="Self.RESERVAS_IDUSUARIO">
+            <End Role="USUARIOS" EntitySet="USUARIOS" />
+            <End Role="RESERVAS" EntitySet="RESERVAS" />
+          </AssociationSet>
+          <EntitySet Name="COMENTARIOS" EntityType="BD_OIDOCOCINAModel.COMENTARIOS" />
+          <AssociationSet Name="FK_COMENT_IDLOCAL" Association="BD_OIDOCOCINAModel.FK_COMENT_IDLOCAL">
+            <End Role="LOCALES" EntitySet="LOCALES" />
+            <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_COMENT_IDUSER" Association="BD_OIDOCOCINAModel.FK_COMENT_IDUSER">
+            <End Role="USUARIOS" EntitySet="USUARIOS" />
+            <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="COMENTARIOS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Local" Type="Int32" Nullable="false" />
+          <Property Name="Id_Usuario" Type="Int32" Nullable="false" />
+          <Property Name="Comentario" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Puntuacion" Type="Int32" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="LOCALES" Relationship="BD_OIDOCOCINAModel.FK_COMENT_IDLOCAL" FromRole="COMENTARIOS" ToRole="LOCALES" />
+          <NavigationProperty Name="USUARIOS" Relationship="BD_OIDOCOCINAModel.FK_COMENT_IDUSER" FromRole="COMENTARIOS" ToRole="USUARIOS" />
+        </EntityType>
+        <Association Name="FK_COMENT_IDLOCAL">
+          <End Type="BD_OIDOCOCINAModel.LOCALES" Role="LOCALES" Multiplicity="1" />
+          <End Type="BD_OIDOCOCINAModel.COMENTARIOS" Role="COMENTARIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LOCALES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="COMENTARIOS">
+              <PropertyRef Name="Id_Local" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_COMENT_IDUSER">
+          <End Type="BD_OIDOCOCINAModel.USUARIOS" Role="USUARIOS" Multiplicity="1" />
+          <End Type="BD_OIDOCOCINAModel.COMENTARIOS" Role="COMENTARIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIOS">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="COMENTARIOS">
+              <PropertyRef Name="Id_Usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BD_OIDOCOCINAModelStoreContainer" CdmEntityContainer="BD_OIDOCOCINAEntities">
+          <EntitySetMapping Name="GALERIA">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.GALERIA">
+              <MappingFragment StoreEntitySet="GALERIA">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Portada" ColumnName="Portada" />
+                <ScalarProperty Name="Ruta" ColumnName="Ruta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LOCALES">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.LOCALES">
+              <MappingFragment StoreEntitySet="LOCALES">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Correo" ColumnName="Correo" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Hora_apertura" ColumnName="Hora_apertura" />
+                <ScalarProperty Name="Hora_cierre" ColumnName="Hora_cierre" />
+                <ScalarProperty Name="Lunes" ColumnName="Lunes" />
+                <ScalarProperty Name="Martes" ColumnName="Martes" />
+                <ScalarProperty Name="Miercoles" ColumnName="Miercoles" />
+                <ScalarProperty Name="Jueves" ColumnName="Jueves" />
+                <ScalarProperty Name="Viernes" ColumnName="Viernes" />
+                <ScalarProperty Name="Sabado" ColumnName="Sabado" />
+                <ScalarProperty Name="Domingo" ColumnName="Domingo" />
+                <ScalarProperty Name="Carta" ColumnName="Carta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MESAS">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.MESAS">
+              <MappingFragment StoreEntitySet="MESAS">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NOTICIAS">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.NOTICIAS">
+              <MappingFragment StoreEntitySet="NOTICIAS">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Destacado" ColumnName="Destacado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RESERVAS">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.RESERVAS">
+              <MappingFragment StoreEntitySet="RESERVAS">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+                <ScalarProperty Name="Id_Mesa" ColumnName="Id_Mesa" />
+                <ScalarProperty Name="Dia" ColumnName="Dia" />
+                <ScalarProperty Name="Hora" ColumnName="Hora" />
+                <ScalarProperty Name="Num_personas" ColumnName="Num_personas" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIOS">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.USUARIOS">
+              <MappingFragment StoreEntitySet="USUARIOS">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Correo" ColumnName="Correo" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="COMENTARIOS">
+            <EntityTypeMapping TypeName="BD_OIDOCOCINAModel.COMENTARIOS">
+              <MappingFragment StoreEntitySet="COMENTARIOS">
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Puntuacion" ColumnName="Puntuacion" />
+                <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+                <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+                <ScalarProperty Name="Id_Local" ColumnName="Id_Local" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

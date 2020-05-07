@@ -1,0 +1,152 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.RESERVAS>
+
+
+<style>
+    th {
+        text-align: center
+    }
+
+    td {
+        text-align: center
+    }
+
+    a {
+        color: white
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none
+    }
+</style>
+@{
+    ViewBag.Title = "Administrar reservas";
+}
+
+<h2>ADMINISTRACIÓN DE RESERVAS</h2>
+
+@using (Html.BeginForm("Admin", "Reservas", FormMethod.Get))
+{
+<div style="margin-bottom:1em;display:flex;align-items:center">
+    <label style="margin-right:1em" for="busquedaLocal">Buscar local:</label><input id="busquedaLocal" class="form-control" type="text" name="busquedaLocal"/>
+    <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/encontrar.png" /></button>
+</div>
+}
+
+@*@using (Html.BeginForm("Admin", "Reservas", FormMethod.Get))
+{
+    <p>
+        <input type="hidden" value="Taco" name="busquedaLocal" />
+        <button type="submit" value="Buscar" ><img src="~/Content/Icons/search.png" style="width:20px;"/></button>
+    </p>
+}
+
+@using (Html.BeginForm("Admin", "Reservas", FormMethod.Get))
+{
+    <p>
+        <input type="hidden" value="Foster" name="busquedaLocal" />
+        <button type="submit" value="Buscar" ><img src="~/Content/Icons/edit.png" style="width:20px;"/></button>
+    </p>
+}*@
+
+<table class="table">
+    <tr>
+        <th>
+            Local
+        </th>
+        <th>
+            Usuario
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hora)
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        if (ViewBag.fecha_actual > item.Dia)
+        {
+            <tr style="background-color:#4a4a4a">
+                <td>
+                    @Html.DisplayFor(modelItem => item.MESAS.LOCALES.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.USUARIOS.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hora)
+                </td>
+
+                <td style="display:flex; background-color:#222222;justify-content:center">
+                    <form action="~/Reservas/Details/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/search.png" /></button>
+                    </form>
+                    <form action="~/Reservas/Delete/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
+                    </form>
+                </td>
+            </tr>
+        }
+        else if (ViewBag.fecha_actual < item.Dia)
+        {
+            <tr style="background-color:forestgreen">
+                <td>
+                    @Html.DisplayFor(modelItem => item.MESAS.LOCALES.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.USUARIOS.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hora)
+                </td>
+
+                <td style="display:flex; background-color:#222222;justify-content:center">
+                    <form action="~/Reservas/Details/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/search.png" /></button>
+                    </form>
+                    <form action="~/Reservas/Delete/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
+                    </form>
+                </td>
+            </tr>
+        }
+        else
+        {
+            <tr style="background-color:darkorange">
+                <td>
+                    @Html.DisplayFor(modelItem => item.MESAS.LOCALES.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.USUARIOS.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hora)
+                </td>
+
+                <td style="display:flex; background-color:#222222;justify-content:center">
+                    <form action="~/Reservas/Details/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/search.png" /></button>
+                    </form>
+                    <form action="~/Reservas/Delete/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
+                    </form>
+                </td>
+            </tr>
+        }
+
+    }
+</table>

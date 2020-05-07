@@ -1,0 +1,136 @@
+﻿@model Proyecto_OIDOCOCINA.Models.LOCALES
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LOCALES</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Direccion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Correo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Correo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_apertura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_apertura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_cierre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_cierre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lunes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lunes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Martes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Martes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Miercoles)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Miercoles)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Jueves)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Jueves)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Viernes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Viernes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sabado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sabado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Domingo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Domingo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Carta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Carta)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,109 @@
+﻿@model Proyecto_OIDOCOCINA.Models.LOCALES
+
+@{
+    ViewBag.Title = "Detalles - "+Model.Nombre;
+}
+
+    <h2> @Html.DisplayFor(model => model.Nombre)</h2>
+
+<style>
+    h3{
+        margin-top:1em
+    }
+    .portada{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+</style>
+
+<div>
+    <hr />
+    <div class="row">
+        <div style="" class="col-md-6">
+            <img class="img-rounded img-thumbnail" src="~/Content/Images/@Html.DisplayFor(model => model.Id)/portada.jpg" />
+        </div>
+        <div style="max-width: 100%;max-height: 100%;" class="col-md-6">
+
+            <div style="text-align:center" class="row">
+                <h3>DIRECCIÓN</h3>
+                <div>
+                    @Html.DisplayFor(model => model.Direccion)
+                </div>
+                <h3>TELÉFONO</h3>
+                <div>
+                    @Html.DisplayFor(model => model.Telefono)
+                </div>
+                <h3>HORARIO</h3> 
+                <div>
+                    Abierto de @Html.DisplayFor(model => model.Hora_apertura) a @Html.DisplayFor(model => model.Hora_cierre)
+                </div><br /><br />
+                <div>
+                    @if (User.IsInRole("Usuario"))
+                    {
+                        <a href="../../Reservas/Create/@Html.DisplayFor(model => model.Id)" style="width:80%;color:#222222" class="btn btn-lg btn-success">RESERVAR</a>
+                    }
+                    else if (User.IsInRole("Local"))
+                    {
+
+                    }
+
+                    else
+                    {
+                        <a href="../../Account/Login" style="width:80%;color:#222222" class="btn btn-lg btn-success">RESERVAR - USUARIOS REGISTRADOS</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div style="max-width: 100%;max-height: 100%;" class="col-md-6">
+
+            <div style="text-align:center">
+
+                @foreach (var item in Model.NOTICIAS.OrderByDescending(i => i.Destacado).ThenByDescending(i => i.Fecha))
+                {
+
+                <div style="display:flex;justify-content:space-between">
+                    <h3 style="text-align:left;">
+
+                        @if (item.Destacado == true)
+                        {
+                            <img style="width:4%;margin:0em 0.5em 0.2em 0em;" src="~/Content/Icons/star.png" />
+                        }
+                        @Html.DisplayFor(modelItem => item.Titulo)
+
+                    </h3>
+                    <div style="font-style:italic;text-align:right;margin-bottom:0.8em; align-self: flex-end;">@Html.DisplayFor(modelItem => item.Fecha)</div>
+                </div>
+                <div style="text-align:justify">
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </div>
+                }
+            </div>
+        </div>
+        <div style="" class="col-md-6">
+            <div id="gallery" style="display:flex;justify-content:center; width:100%;flex-wrap: wrap;">
+                @foreach (var item in Model.GALERIA.OrderByDescending(i => i.Id))
+                {
+
+                   if (item.Portada != true)
+                    {
+                <a href="~/Content/Images/@Html.DisplayFor(model => model.Id)/@Html.DisplayFor(modelItem => item.Ruta)" data-lightbox="image">
+                    <img style="width:150px;height:130px;margin:5px" class="img-rounded img-thumbnail" src="~/Content/Images/@Html.DisplayFor(model => model.Id)/@Html.DisplayFor(modelItem => item.Ruta)" />
+                </a>
+                    }
+
+                }</div>
+
+            </div>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#gallery a").lightbox();
+    });
+</script>

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - OIDOCOCINA</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/themes/base/css")
+    <link rel="stylesheet" type="text/css" href="~/Content/estilos.css">
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a href="@Url.Action("Index", "Home")" class="navbar-brand titulo" >
+                        <img style="width:40px;height:40px" alt="" src="~Content/Icons/logo_white.png" /><span class=""> OIDOCOCINA</span>
+                    </a>           
+            </div>
+            <div class="navbar-collapse collapse">
+                @Html.Partial("_LoginPartial")
+
+                @if (User.IsInRole("Local"))
+                {<ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Gestión de reservas", "ReservasPorLocal", "Reservas")</li>
+                        <li>@Html.ActionLink("Gestión de mesas", "MesasPorLocal", "Mesas")</li>
+                        <li>@Html.ActionLink("Galería", "Index", "Galeria")</li>
+                        <li>@Html.ActionLink("Noticias", "Index", "Noticias")</li>
+                        <li>@Html.ActionLink("Modificar información", "Edit_Local", "Locales")</li>
+                    </ul>
+
+                }
+                else if (User.IsInRole("Usuario"))
+                {
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Consultar reservas", "Index", "Reservas")</li>
+                        <li>@Html.ActionLink("Modificar información", "Edit_Usuario", "Usuarios")</li>
+                    </ul>
+                }
+                else if (User.IsInRole("Administrador"))
+                {
+                    <ul class="nav navbar-nav">
+                        <li> @Html.ActionLink("Control de usuarios", "Admin", "Usuarios") </li>
+                        <li> @Html.ActionLink("Control de locales", "Admin", "Locales") </li>
+                        <li> @Html.ActionLink("Control de reservas", "Admin", "Reservas") </li>
+                    </ul>
+                }
+
+
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - OIDOCOCINA</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/lightbox")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

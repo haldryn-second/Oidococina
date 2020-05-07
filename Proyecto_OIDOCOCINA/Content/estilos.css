@@ -1,0 +1,94 @@
+﻿*{
+    color:black
+}
+
+a{
+    color:green;
+}
+    a:hover {
+        color: #2BA81A
+    }
+
+html {
+    min-height: 100%;
+}
+
+option{
+    color:#222222;
+}
+
+body > .container {
+    background-color: whitesmoke;
+    min-height: 100%;
+    margin: 0 auto;
+    min-height: 92vh;
+}
+
+hr {
+    border-top: 1px dashed green;
+}
+
+
+
+body {
+    min-height: 100vh;
+    padding-bottom: 0!important;
+    background-image: url('Images/parallax.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: #cccccc
+}
+
+h2 {
+    text-align: center;
+}
+
+h2+p {
+    text-align: center;
+}
+
+td {
+    vertical-align:middle!important;
+}
+
+.form-css {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.card {
+    background-color: #555;
+    margin: 0 1em 1em 1em;
+    border: 5px ridge #2BA81A;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 3px green;
+    text-decoration:none
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo img{
+    margin-right:1em;
+}
+
+@media (max-width: 768px) {
+    .titulo span {
+        display:none
+    }
+
+}
+

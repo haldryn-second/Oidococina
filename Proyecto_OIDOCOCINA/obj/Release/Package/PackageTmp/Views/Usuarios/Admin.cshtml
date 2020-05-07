@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Proyecto_OIDOCOCINA.Models.USUARIOS>
+
+@{
+    ViewBag.Title = "Administrar usuarios";
+}
+
+<h2>ADMINISTRACIÓN DE USUARIOS</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Correo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Direccion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Correo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Telefono)
+    </td>
+
+    <td style="display:flex; text-align:center">
+
+        <form action="~/Usuarios/Edit/@item.Id" method="get">
+            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/edit.png" /></button>
+        </form>
+
+        <form action="~/Usuarios/Delete/@item.Id" method="get">
+            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
+        </form>
+
+    </td>
+</tr>
+    }
+
+</table>

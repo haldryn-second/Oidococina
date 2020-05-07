@@ -1,0 +1,34 @@
+﻿@model Proyecto_OIDOCOCINA.Models.RESERVAS
+
+@{
+    ViewBag.Title = "Detalles de reserva";
+}
+<style>
+    span{
+        font-weight:600;text-decoration:underline
+    }
+</style>
+<h2>DETALLES DE LA RESERVA</h2>
+
+
+    <hr />
+    <div style="display:flex; justify-content:center">
+
+        <div style="margin-right:3em">
+            <span> Nombre del reservante:</span>
+            @Html.DisplayFor(model => model.USUARIOS.Nombre)
+        </div>
+
+        <div style="margin-right:3em">
+           <span> @Html.DisplayNameFor(model => model.Num_personas):</span>
+            @Html.DisplayFor(model => model.Num_personas)
+        </div>
+
+        <div style="margin-right:3em">
+           <span> Localización:</span>
+            @Html.DisplayFor(model => model.MESAS.Descripcion)
+        </div>
+
+
+
+    </div>
