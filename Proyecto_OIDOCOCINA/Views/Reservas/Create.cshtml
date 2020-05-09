@@ -124,22 +124,18 @@
 <script>
     $(document).ready(function () {
     $('#dia_prime').change(function () {
-        //console.log(Date.now());
-        //console.log(Date.parse(this.value));
-        //var d = Date.parse(this.value) - Date.now();
-        //console.log(d);
-        var today = moment().format("MMM Do YY");   
-        var fecha = moment(this.value).format("MMM Do YY");   
-        console.log(today);
-        console.log(fecha);
-        if (today > fecha) {
-            //$(".error_fecha").show("slow", function () {
-            //    $('#sub_but').prop('disabled', true);
-            //});
+
+        var today = moment();
+        var fecha = moment(this.value);
+        var res = (today.diff(fecha, "days"));
+
+        if (res>0) {
+
             $(".error_fecha").show();
             $('#sub_but').prop('disabled', true);
         }
-            else {
+        else {
+    
             $(".error_fecha").hide();
             $('#sub_but').prop('disabled', false);
             }
