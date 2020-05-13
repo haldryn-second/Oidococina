@@ -28,8 +28,38 @@ hr {
     border-top: 1px dashed green;
 }
 
+tr > th{
+    background-color: #5cb85c;
+}
+
+tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+
+}
 
 
+    tr:last-child td:first-child {
+        border-bottom-left-radius: 10px;
+    }
+
+
+
+    th, td, table{
+        border:0!important;
+    }
+
+th, td {
+    border-bottom: 2px groove #4cae4c!important;
+}
+
+tr:last-child td {
+    border-bottom: 0px!important;
+}
+
+    td>form{
+        float:left;
+        display:inline
+    }
 body {
     min-height: 100vh;
     padding-bottom: 0!important;

@@ -27,7 +27,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 @Html.Partial("_LoginPartial")
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="">
+
+                    <li>@Html.ActionLink("Lista de locales", "Lista", "Locales")</li>
+
                     @if (User.IsInRole("Local"))
                     {
                         <li>@Html.ActionLink("Gestión de reservas", "ReservasPorLocal", "Reservas")</li>

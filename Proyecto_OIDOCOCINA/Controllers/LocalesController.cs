@@ -45,6 +45,18 @@ namespace Proyecto_OIDOCOCINA.Controllers
             return View(lOCALES );
         }
 
+        public ActionResult Lista(string busquedaLocal)
+        {
+            if (!String.IsNullOrEmpty(busquedaLocal))
+            {
+                var lOCALES = db.LOCALES.Where(e => e.Nombre.Contains(busquedaLocal));
+                ViewBag.busqueda = busquedaLocal;
+                return View(lOCALES);
+            }
+
+            return View(db.LOCALES.ToList());
+        }
+
 
         [Authorize(Roles = "Administrador")]
         // GET: Locales/Details/5

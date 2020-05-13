@@ -6,22 +6,22 @@
     @Html.AntiForgeryToken()
 
     <ul class="nav navbar-nav navbar-right">
-        @if (User.IsInRole("Local"))
+        @*@if (User.IsInRole("Local"))
         {
             <li style="margin-top:5px">
-                <span class="bot"> @User.Identity.GetUserName()</span> <img style="width:40px;height:40px" alt="" src="~/Content/Icons/lugar.png" />
+                <span class="bot"> @User.Identity.GetUserName()</span> <img style="width:30px;height:30px" alt="" src="~/Content/Icons/lugar.png" />
             </li>
         }
         else if (User.IsInRole("Administrador"))
         {
             <li style="margin-top:5px">
-                <span class="bot"> @User.Identity.GetUserName()</span> <img style="width:40px;height:40px" alt="" src="~/Content/Icons/ingeniero.png" />
+                <span class="bot"> @User.Identity.GetUserName()</span> <img style="width:30px;height:30px" alt="" src="~/Content/Icons/ingeniero.png" />
             </li>
         }
         else if (User.IsInRole("Usuario"))
         {
             <li style="margin-top:5px">
-                <span class="bot"> @User.Identity.GetUserName()</span> <img style="width:40px;height:40px" alt="" src="~/Content/Icons/usuario.png" />
+                <span class="bot"> @User.Identity.GetUserName()</span> <img style="width:30px;height:30px" alt="" src="~/Content/Icons/usuario.png" />
             </li>
         }
         else
@@ -29,8 +29,29 @@
             <li>
                 @Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
             </li>
+        }*@
+
+        @if (User.IsInRole("Local"))
+        {<li><a href="javascript:document.getElementById('logoutForm').submit()"><img style="width:30px;height:30px" alt="" src="~/Content/Icons/lugar.png" /></a></li>
+
         }
-        <li><a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>
+        else if (User.IsInRole("Administrador"))
+        {<li class="bot"><a href="javascript:document.getElementById('logoutForm').submit()"><img style="width:30px;height:30px" alt="" src="~/Content/Icons/ingeniero.png" /> </a></li>
+
+        }
+        else if (User.IsInRole("Usuario"))
+        {<li><a href="javascript:document.getElementById('logoutForm').submit()"><img style="width:30px;height:30px" alt="" src="~/Content/Icons/usuario.png" /></a></li>
+
+        }
+        else
+        {
+            <li>
+                @Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+        }
+
+
+        @*<li><a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>*@
     </ul>
     }
 }
@@ -43,11 +64,9 @@ else
 </ul>
 }
 <style>
-.bot{
-    color:#9d9d9d;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-right:1em;
-}
+    .bot > a {
+        color: #9d9d9d;
+        padding: 10px!important;
+    }
         
 </style>

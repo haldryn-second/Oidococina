@@ -31,16 +31,20 @@
                     @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
                 </div>
             </div>
+            
+
             <div class="form-group" style="width:60%;text-align: center;">
                 <div class="">
                     <input style="width:50%" type="submit" value="REGISTRAR USUARIO" class="btn btn-success" />
+                    <div style="margin-top:1em">
+                        Resgistrándote aceptas los <a href="#" onclick='window.open("../../Home/Condiciones");return false;'>Terminos y condiciones de Uso</a>.
+                    </div>
                 </div>
             </div>
-            <div class="form-group" style="width:60%;text-align: center;">
+            <div class="form-group" style="margin-top:2em;width:60%;text-align: center;">
                 <a href="~/Account/Login">¿Ya tienes una cuenta?</a>
             </div>
         }
-
     </section>
     <img src="~/Content/Icons/usuario.png" style="float:right" />
 </div>
