@@ -2,15 +2,18 @@
 @{
     ViewBag.Title = "Inicio - OIDOCOCINA";
 }
+
     <style>
 
     img {
         width: 200px;
         height: 150px;
     }
-    .container{
-        padding-left:0;padding-right:0;
-    }
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            background-color: rgba(0,0,0,0)!important;
+        }
 
     .centered {
         text-align: center;
@@ -71,10 +74,12 @@
 }
 
     </style>
-    <div class="centered jumbotron" style="margin-bottom:0em!important">
+    <div class="jumbotron" style="margin-bottom:0em!important;text-align:center">
         <h1>OIDOCOCINA</h1>
-        <h2>Reserva gratis en los mejores restaurantes de forma rápida y sencilla</h2>
-        <a href="../Locales/Lista" style="color:#222222" class="btn btn-lg btn-success"> RESERVA AHORA</a>
+        <h2>
+            RESERVA GRATIS EN LOS MEJORES RESTAURANTES DE FORMA RÁPIDA Y SENCILLA
+        </h2>
+        <a href="../Locales/Lista" style="color:#222222;margin-top:1em;" class="btn btn-lg btn-success"> RESERVA AHORA</a>
     </div>
 <div id="my-pics" class="carousel slide" data-ride="carousel" style="margin:1em 0 1em 0">
 
@@ -150,12 +155,12 @@
     </div>
 </div>
 
-<div class="jumbotron">
-    <h2 class="display-4 centered">¿Cómo funciona?</h2>
+<div class="jumbotron" style="margin-bottom:0em!important; text-align:center">
+    <h2 class="display-4">¿CÓMO FUNCIONA?</h2>
     <div class="row" style="text-align:center">
-        <div class="col-md-4"><i class="fas fa-shield-alt fa-6x" style="color:#248f16;margin-bottom:0.7em;"></i><br /><span class="centered">Seguridad y certeza en tus reservas</span></div>
-        <div class="col-md-4"><i class="far fa-comments fa-6x" style="color:#248f16;margin-bottom:0.7em;"></i><br /><span class="centered">Seguridad y certeza en tus reservas</span></div>
-        <div class="col-md-4"><i class="fas fa-shield-alt fa-6x" style="color:#248f16;margin-bottom:0.7em;"></i><br /><span class="centered">Seguridad y certeza en tus reservas</span></div>
+        <div class="col-md-4"><i class="fas fa-shield-alt fa-6x" style="color:#248f16;margin-bottom:0.7em;"></i><br /><h4 class="">Reserva de manera directa y sencilla</h4></div>
+        <div class="col-md-4"><i class="far fa-comments fa-6x" style="color:#248f16;margin-bottom:0.7em;"></i><br /><h4 class="">Comentarios y opiniones contrastadas</h4></div>
+        <div class="col-md-4"><i class="fas fa-shield-alt fa-6x" style="color:#248f16;margin-bottom:0.7em;"></i><br /><h4 class="">Seguridad y certeza en tus reservas</h4></div>
     </div>
 
 </div>
@@ -163,47 +168,49 @@
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 
-<h2>NUESTROS LOCALES</h2>
-<div style="display:inline-flex;justify-content:center; width:100%;flex-wrap: wrap;">
-    @{
-        var cont = 0;
+<div class="locales">
+    <h2>NUESTROS LOCALES</h2>
+    <div style="display:inline-flex;justify-content:center; width:100%;flex-wrap: wrap;">
+        @{
+            var cont = 0;
 
 
-        foreach (var item in Model)
-        {
-
-
+            foreach (var item in Model)
             {
-                if (File.Exists(Server.MapPath("~/Content/Images/" + @Html.DisplayFor(modelItem => item.Id) + "/portada.jpg")))
+
+
                 {
-                    if (cont < 6)
+                    if (File.Exists(Server.MapPath("~/Content/Images/" + @Html.DisplayFor(modelItem => item.Id) + "/portada.jpg")))
                     {
+                        if (cont < 6)
+                        {
 
 
-                        <a class="crop" href="~/Locales/Detalles/@item.Id">
-                            <img src="~/Content/Images/@Html.DisplayFor(modelItem => item.Id)/portada.jpg" alt="@Html.DisplayFor(modelItem => item.Nombre)">
+                            <a class="crop" href="~/Locales/Detalles/@item.Id">
+                                <img src="~/Content/Images/@Html.DisplayFor(modelItem => item.Id)/portada.jpg" alt="@Html.DisplayFor(modelItem => item.Nombre)">
 
-                            <div class="title">@Html.DisplayFor(modelItem => item.Nombre)</div>
+                                <div class="title">@Html.DisplayFor(modelItem => item.Nombre)</div>
 
-                        </a>
-                        @*<a style="text-decoration:none" href="~/Locales/Detalles/@item.Id">
-                                    <img class="card-img-top" style="border-radius:10px" src="~/Content/Images/@Html.DisplayFor(modelItem => item.Id)/portada.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">@Html.DisplayFor(modelItem => item.Nombre)</h4>
-                                    </div>
+                            </a>
+                            @*<a style="text-decoration:none" href="~/Locales/Detalles/@item.Id">
+                                        <img class="card-img-top" style="border-radius:10px" src="~/Content/Images/@Html.DisplayFor(modelItem => item.Id)/portada.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title">@Html.DisplayFor(modelItem => item.Nombre)</h4>
+                                        </div>
 
-                            </a>*@
+                                </a>*@
+                        }
+                        cont += 1;
                     }
-                    cont += 1;
                 }
-            }
 
+            }
         }
-    }
-    <input style="width:50%;margin-bottom:1em" type="submit" id="more" value="MOSTRAR MÁS" class="btn btn-success" />
+        <input style="width:50%;margin-bottom:1em" type="submit" id="more" value="MOSTRAR MÁS" class="btn btn-success" />
+    </div>
 </div>
 
-<div class="centered jumbotron" style="margin-bottom:0em!important">
+<div class="jumbotron" style="margin-bottom:0em!important;text-align:center">
     <h2>¿QUIERES QUE TU LOCAL SEA VISIBLE EN LA WEB Y COMENZAR A RECIBIR VISITAS?</h2>
     <a href="../Home/Contact" style="color:#222222" class="btn btn-lg btn-success"> CONTACTA AHORA</a>
 </div>

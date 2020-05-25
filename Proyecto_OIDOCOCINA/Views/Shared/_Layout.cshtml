@@ -8,12 +8,13 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/Content/themes/base/css")
+<link href="https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Buenard:wght@700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="~/Content/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -22,7 +23,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="@Url.Action("Index", "Home")" class="navbar-brand titulo">
-                    <img style="width:40px;height:40px" alt="" src="~/Content/Icons/logo_white.png" /><span style="color:white"> OIDOCOCINA</span>
+                    <img style="width:40px;height:40px" alt="" src="~/Content/Icons/logo_white.png" /><span style="color:white;font-family: 'Atma', cursive;"> OIDOCOCINA</span>
                 </a>
             </div>
             <div class="navbar-collapse collapse">
