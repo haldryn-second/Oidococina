@@ -15,6 +15,11 @@ namespace Proyecto_OIDOCOCINA.Models
 
     public partial class COMENTARIOS
     {
+        public COMENTARIOS()
+        {
+            Comentario = "";
+        }
+
         public int Id { get; set; }
         public int Id_Local { get; set; }
         public int Id_Usuario { get; set; }

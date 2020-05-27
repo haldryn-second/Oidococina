@@ -5,10 +5,17 @@
 }
 
 <style>
+    span{
+        margin:0!important
+    }
     .rating {
         unicode-bidi: bidi-override;
         direction: rtl;
         cursor: context-menu;
+        text-align:center;
+        margin-bottom:0em;
+        display:inline-block;
+        margin:0 auto;
     }
 
         .rating > span {
@@ -17,55 +24,68 @@
             width: 1.1em;
             cursor: pointer;
         }
-
+        .rating:hover > span {
+            color: black !important;
+        }
             .rating > span:hover:before,
             .rating > span:hover ~ span:before {
                 color: orange;
             }
+            textarea{
+                width:100%;
+                border-radius:5px;
+            }
 </style>
 
-<h2>Create</h2>
+<h2>CREAR/MODIFICAR COMENTARIO</h2>
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Create", "Comentarios", FormMethod.Post, new { name = "frm", id = "frm" }))
 {
     @Html.AntiForgeryToken()
 
-    <div class="form-horizontal">
-        <h4>COMENTARIOS</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group" style="display:none">
-            @Html.LabelFor(model => model.Id_Local, "Id_Local", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("Id_Local", null, htmlAttributes: new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Id_Local, "", new { @class = "text-danger" })
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group" style="display:none">
+        @Html.LabelFor(model => model.Id_Local, "Id_Local", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("Id_Local", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Id_Local, "", new { @class = "text-danger" })
 
-            </div>
         </div>
+    </div>
 
-        <div class="form-group" style="display:none">
-            @Html.LabelFor(model => model.Id_Usuario, "Id_Usuario", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("Id_Usuario", null, htmlAttributes: new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Id_Usuario, "", new { @class = "text-danger" })
-            </div>
+    <div class="form-group" style="display:none">
+        @Html.LabelFor(model => model.Id_Usuario, "Id_Usuario", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("Id_Usuario", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Id_Usuario, "", new { @class = "text-danger" })
         </div>
+    </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.Comentario, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Comentario, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Comentario, "", new { @class = "text-danger" })
-            </div>
+
+    <div class="col-md-12" style="text-align:center">
+        <div>
+            @*@Html.LabelFor(model => model.Comentario, htmlAttributes: new { @class = "control-label" })*@
+            <h4>Escribe tu valoración y pulsa sobre las estrellas</h4>
         </div>
+        <div style="margin: 1em 0 1em 0">
+            @Html.TextArea("Message", new { id = "comentar" })
+            <span style="display:none">
+                @Html.EditorFor(model => model.Comentario, new { htmlAttributes = new { @class = "form-control", @id = "coment_true" } })
+            </span>
+            @Html.ValidationMessageFor(model => model.Comentario, "", new { @class = "text-danger" })
+        </div>
+    </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.Puntuacion, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10" style="display:none">
-                @Html.EditorFor(model => model.Puntuacion, new { htmlAttributes = new { @class = "form-control", @id = "punt" } })
-                @Html.ValidationMessageFor(model => model.Puntuacion, "", new { @class = "text-danger" })
-            </div>
-            <div class="col-md-10 rating">
+    <div style="width:100%">
+        @*@Html.LabelFor(model => model.Puntuacion, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-12" style="display:none">
+            @Html.EditorFor(model => model.Puntuacion, new { htmlAttributes = new { @class = "form-control", @id = "punt" } })
+            @Html.ValidationMessageFor(model => model.Puntuacion, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-12" style="text-align:center">
+            <div class="rating">
                 <span class="fa fa-star fa-3x" id="star5"></span>
                 <span class="fa fa-star fa-3x" id="star4"></span>
                 <span class="fa fa-star fa-3x" id="star3"></span>
@@ -73,33 +93,59 @@
                 <span class="fa fa-star fa-3x" id="star1"></span>
             </div>
         </div>
+    </div>
+    &nbsp;
 
-
-        @*<div class="form-group" style="display:none">
+    @*<div class="form-group" style="display:none">
             @Html.LabelFor(model => model.Fecha, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Fecha, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Fecha, "", new { @class = "text-danger" })
             </div>
         </div>*@
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
-        </div>
+    <div style="text-align:center;margin-top:1em">
+        <input id="crear_coment" style="width:50%" type="submit" value="COMENTAR" class="btn btn-success" disabled />
     </div>
-}
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
 </div>
+ 
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://j11y.io/demos/plugins/jQuery/autoresize.jquery.js"></script>
 
 <script>
- 
     $("span").click(function () {
-        valor=this.id.substring(4, 5);
+        valor = this.id.substring(4, 5);
         $("#punt").val(valor)
+
+        //FIJAR COLOR DE LA ESTRELLA ELEGIDA
+        for (i = 1; i <= 5; i++) {
+            $('#star' + i).css("color", "black");
+        }
+        for (i = 1; i <= valor; i++) {
+            $('#star'+i).css("color", "orange");
+        }       
+        //FIJAR COLOR DE LA ESTRELLA ELEGIDA
+
+
+        if ($("#comentar").val() == "") {
+            $('textarea').css("border", "2px solid red");
+        }
+        else {
+            $("#crear_coment").prop('disabled', false);
+        }
     });
+
+
+    $('#comentar').keyup(function () {
+        $("#coment_true").val($("#comentar").val());
+        if ($("#punt").val() >= 1){
+            $("#crear_coment").prop('disabled', false);
+        }
+        if ($("#comentar").val() == "") {
+            $("#crear_coment").prop('disabled', true);
+        }
+    });
+
+    $('textarea').autoResize();
 </script>
+}
