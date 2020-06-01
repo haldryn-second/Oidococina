@@ -154,7 +154,18 @@ td {
 
 }
 
-footer{
-    background-color:whitesmoke;
-    padding:2em;
+.title {
+    font-family: 'Atma', cursive;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
+footer {
+    background-color: whitesmoke;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+    footer  ul {
+        list-style-type: none;
+    }

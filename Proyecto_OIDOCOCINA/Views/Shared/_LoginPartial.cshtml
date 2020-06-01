@@ -58,7 +58,7 @@
 else
 {
 <ul class="nav navbar-nav navbar-right">
-    <li>@Html.ActionLink("Registrar local", "Register_Local", "Account")</li>
+    @*<li>@Html.ActionLink("Registrar local", "Register_Local", "Account")</li>*@
     <li>@Html.ActionLink("Registrar usuario", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
     <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
 </ul>
