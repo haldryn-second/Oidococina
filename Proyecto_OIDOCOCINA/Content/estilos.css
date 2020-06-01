@@ -92,7 +92,7 @@ tr:last-child td {
 body {
     min-height: 100vh;
     padding-bottom: 0!important;
-    background-image: url('Images/parallax.jpg');
+    background-image: url('Images/parallax.png');
     width: 100%;
     background-attachment: fixed;
     background-position: center;
