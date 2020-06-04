@@ -29,6 +29,9 @@ namespace Proyecto_OIDOCOCINA.Controllers
             var usuario_actual = db.USUARIOS.Where(e => e.Correo == correoUsu).FirstOrDefault();
 
             var rESERVAS = db.RESERVAS.Include(r => r.MESAS).Include(r => r.USUARIOS).Where(r=>r.Id_Usuario== usuario_actual.Id);
+            rESERVAS = rESERVAS.OrderByDescending(r => r.Dia).ThenBy(r => r.Hora);
+
+            ViewBag.dia_ac = DateTime.Now;
             return View(rESERVAS.ToList());
         }
         [Authorize(Roles = "Administrador")]
@@ -39,7 +42,7 @@ namespace Proyecto_OIDOCOCINA.Controllers
             ViewBag.fecha_actual = fecha_ac;
 
             var rESERVAS = db.RESERVAS.Include(r => r.MESAS).Include(r => r.USUARIOS);
-            rESERVAS = rESERVAS.OrderByDescending(r => r.Dia);
+            rESERVAS = rESERVAS.OrderByDescending(r => r.Dia).ThenBy(r => r.Hora);
 
             if (!String.IsNullOrEmpty(busquedaLocal))
             {

@@ -2,19 +2,21 @@
 
 
 <style>
-    th{
-     text-align:center
-    }
-    td{
-    text-align:center
+    th {
+        text-align: center
     }
 
+    td {
+        text-align: center
+    }
 </style>
 @{
     ViewBag.Title = "Reservas";
 }
 
 <h2>Reservas</h2>
+
+<br />
 
 <table class="table">
     <tr>
@@ -35,31 +37,36 @@
         </th>
     </tr>
 
-@foreach (var item in Model) {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.MESAS.LOCALES.Nombre)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Dia)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Hora)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.MESAS.Descripcion)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Num_personas)
-    </td>
-    <td>
-        @*<div class="btn btn-danger">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MESAS.LOCALES.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MESAS.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Num_personas)
+            </td>
+            <td style="text-align:center">
+                @*<div class="btn btn-danger">
             @Html.ActionLink("CANCELAR RESERVA", "Delete", new { id = item.Id })
         </div>*@
-        <form action="~/Reservas/Delete/@item.Id" method="get">
-            <button type="submit" class="btn-link"><img style="width:20px" src="~/Content/Icons/cerrar.png" /></button>
-        </form>
-    </td>
-</tr>
-}
+                @if (ViewBag.dia_ac <= item.Dia) 
+                {
+                    <form action="~/Reservas/Delete/@item.Id" method="get">
+                        <button type="submit" class="btn-link"><img style="width:20px; margin:0 auto;" src="~/Content/Icons/cerrar.png" /></button>
+                    </form>
+                }
+
+            </td>
+        </tr>
+    }
 </table>
